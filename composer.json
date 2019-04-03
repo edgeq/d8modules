@@ -33,6 +33,7 @@
         "drupal/module_filter": "^3.1",
         "drupal/multiple_registration": "^2.7",
         "drupal/omega": "^5.0@alpha",
+        "drupal/pathauto": "^1.4",
         "drupal/recaptcha": "^2.4",
         "drupal/register_display": "^1.2",
         "drupal/token": "^1.5",
