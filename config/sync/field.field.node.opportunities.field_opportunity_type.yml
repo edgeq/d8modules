@@ -1,0 +1,21 @@
+uuid: 359c6bd4-2742-42e2-b54a-3c674ba6a76e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opportunity_type
+    - node.type.opportunities
+  module:
+    - options
+id: node.opportunities.field_opportunity_type
+field_name: field_opportunity_type
+entity_type: node
+bundle: opportunities
+label: 'Opportunity Type'
+description: 'Indicate the value derived from this opportunity. Are you paying your interns? Do they receive college credit? Or is this a volunteer opportunity?'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

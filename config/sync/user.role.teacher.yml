@@ -1,0 +1,10 @@
+uuid: 7e2f8a10-ecb9-4490-91f7-8f9629a3da01
+langcode: en
+status: true
+dependencies: {  }
+id: teacher
+label: Teacher
+weight: 4
+is_admin: null
+permissions:
+  - 'use text format full_html'

@@ -1,0 +1,30 @@
+uuid: f3098027-70cb-473c-b68a-cedbddb6776c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_list
+  module:
+    - user
+_core:
+  default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_list:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  contact: true
+  language: true
+  timezone: true

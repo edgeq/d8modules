@@ -1,0 +1,29 @@
+uuid: 0c17f8ec-ca65-4361-b018-e599e66dfce0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aced_pathway
+    - node.type.opportunities
+    - taxonomy.vocabulary.aced_fields
+id: node.opportunities.field_aced_pathway
+field_name: field_aced_pathway
+entity_type: node
+bundle: opportunities
+label: 'ACED Pathway'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      aced_fields: aced_fields
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

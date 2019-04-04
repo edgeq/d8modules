@@ -1,0 +1,32 @@
+uuid: 9c52ba60-5663-4ae7-a09f-912d57150a78
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_list
+  module:
+    - multiple_registration
+    - options
+    - user
+third_party_settings:
+  multiple_registration:
+    user_additional_register_form:
+      teacher: teacher
+      authenticated: 0
+      student: 0
+    user_additional_register_form_required:
+      teacher: teacher
+      authenticated: 0
+      student: 0
+id: user.user.field_list
+field_name: field_list
+entity_type: user
+bundle: user
+label: List
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,9 @@
+uuid: adca6d59-1e95-48be-a81b-b5d663d1b1ed
+langcode: en
+status: true
+dependencies: {  }
+name: STEAM
+vid: steam
+description: 'Taxonomy for describing curricular resources'
+hierarchy: 0
+weight: 0

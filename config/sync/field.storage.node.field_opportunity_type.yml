@@ -1,0 +1,30 @@
+uuid: 673a1ec5-22b0-4db4-9144-612f6a06f13f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_opportunity_type
+field_name: field_opportunity_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: paid
+      label: 'Paid Stipend'
+    -
+      value: volunteer
+      label: Volunteer
+    -
+      value: credit
+      label: 'School Credit'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

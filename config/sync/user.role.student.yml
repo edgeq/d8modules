@@ -1,0 +1,10 @@
+uuid: fb8efd3f-df32-4780-897b-730846a84ad6
+langcode: en
+status: true
+dependencies: {  }
+id: student
+label: Student
+weight: 3
+is_admin: null
+permissions:
+  - 'use text format restricted_html'

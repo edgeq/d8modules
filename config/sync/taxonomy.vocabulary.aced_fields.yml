@@ -1,0 +1,9 @@
+uuid: de44978d-3c7c-4af8-9769-ca4bd12dc017
+langcode: en
+status: true
+dependencies: {  }
+name: 'ACED Fields'
+vid: aced_fields
+description: 'Architecture, Construction, Engineering, or Design'
+hierarchy: 0
+weight: 0

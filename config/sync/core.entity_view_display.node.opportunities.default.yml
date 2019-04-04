@@ -1,0 +1,76 @@
+uuid: 1ccbbf62-9497-4f7a-9d4b-be97610e67ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.opportunities.body
+    - field.field.node.opportunities.field_aced_pathway
+    - field.field.node.opportunities.field_commute_provided
+    - field.field.node.opportunities.field_opportunity_type
+    - field.field.node.opportunities.field_salary
+    - field.field.node.opportunities.field_stem_interest
+    - node.type.opportunities
+  module:
+    - options
+    - text
+    - user
+id: node.opportunities.default
+targetEntityType: node
+bundle: opportunities
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_aced_pathway:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_commute_provided:
+    weight: 2
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_opportunity_type:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_salary:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_stem_interest:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

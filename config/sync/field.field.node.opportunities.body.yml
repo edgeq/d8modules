@@ -1,0 +1,22 @@
+uuid: 8a13acf8-2362-462c-adf0-130b04cc3a50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.opportunities
+  module:
+    - text
+id: node.opportunities.body
+field_name: body
+entity_type: node
+bundle: opportunities
+label: 'Opportunity Description'
+description: 'Describe the opportunity'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

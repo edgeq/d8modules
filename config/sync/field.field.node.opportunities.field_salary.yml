@@ -1,0 +1,23 @@
+uuid: e1f97750-1cde-403d-8566-c555253d0cb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_salary
+    - node.type.opportunities
+id: node.opportunities.field_salary
+field_name: field_salary
+entity_type: node
+bundle: opportunities
+label: Salary
+description: 'Enter a yearly salary'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: ' /hr'
+field_type: integer
